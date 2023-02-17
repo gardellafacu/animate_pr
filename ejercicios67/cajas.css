@@ -1,0 +1,163 @@
+@media (max-width:320px){
+.mobile{
+display: grid;
+grid-template-columns: 1;
+grid-template-rows: 3;
+height: 500px;
+width: 100%;
+
+
+}
+
+.box1{
+grid-row-start: 1;
+background: red;
+height: 150px;
+
+}
+
+.box2{
+    grid-row-start: 2;
+    background:blue;
+    height: 150px;
+    
+
+}
+
+.box3{
+    grid-row-start: 3;
+    background: blueviolet;
+    height: 150px;
+    
+
+
+}
+
+}
+@media(min-width:321px) and (max-width:768px){
+ .mobile{   
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    height: 500px;
+    margin: 5px;
+ }
+
+ .box1{
+   
+    grid-row-start: 1;
+    background: blueviolet;
+    height: 150px;
+ }
+
+ .box2{
+    
+    grid-row-start: 2;
+    background: red;
+    height: 150px;
+ }
+
+ .box3{
+    
+    grid-row-start: 3;
+    background: blue;
+    height: 150px;
+
+ }
+
+ .box4{
+    grid-column-start:2 ;
+    grid-row-start: 1;
+    background: green;
+    height: 150px;
+
+ }
+
+ .box5{
+    grid-column-start:2 ;
+    grid-row-start: 2;
+    background: yellow;
+    height: 150px;
+
+ }
+
+ .box6{
+    grid-column-start: 2;
+    grid-row-start:3;
+    background: orangered;
+    height: 150px;
+
+ }
+
+
+}
+
+@media (min-width:769px) {
+
+    .mobile{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    height: 500px;
+    margin: 5px;
+
+    }
+    .box1{
+        
+        grid-row-start:1;
+        background: blue;
+        height: 150px;
+    }
+    .box2{
+       
+        grid-row-start:2;
+        background: violet;
+        height: 150px;
+    }
+    .box3{
+       
+        grid-row-start:3;
+        background: red;
+        height: 150px;
+    }
+    .box4{
+        grid-column-start: 2;
+        grid-row-start:1;
+        background: yellow;
+        height: 150px;
+    }
+    .box5{
+        grid-column-start: 2;
+        grid-row-start:2;
+        background: orangered;
+        height: 150px;
+    }
+    .box6{
+        grid-column-start: 2;
+        grid-row-start:3;
+        background: green;
+        height: 150px;
+    }
+    .box7{
+        grid-column-start: 3;
+        grid-row-start:1;
+        background: black;
+        height: 150px;
+    }
+    .box8{
+        grid-column-start: 3;
+        grid-row-start:2;
+        background: lightcoral;
+        height: 150px;
+    }
+
+    .box9{
+        grid-column-start: 3;
+        grid-row-start:3;
+        background: grey;
+        height: 150px;
+    }
+
+
+    
+}
